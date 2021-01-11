@@ -1,0 +1,76 @@
+13:48:16.668 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:48:17.622 request:
+1 > GET https://hfportaldev.azure-api.net/hf-recoveries-a2a/searchCases?ourReference=189611%2F1622
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-type: application/json
+1 > Host: hfportaldev.azure-api.net
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
+1 > ocp-apim-subscription-key: 688e9e8619e04c0a9a9b70f539016756
+
+13:48:19.746 response time in milliseconds: 2120.07
+1 < 200
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Mon, 11 Jan 2021 13:48:20 GMT
+1 < Request-Context: appId=cid-v1:03027638-4246-4d4a-b086-635c707e08c8
+1 < Set-Cookie: [ARRAffinity=94e0142216647626a5ea3bdd81a6379b16ea9e930134395d43689721dc8bca60;Path=/;HttpOnly;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinity=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;Secure;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinitySameSite=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;SameSite=None;Secure;Domain=hfportal-recoveries.azurewebsites.net]
+1 < Vary: Accept-Encoding
+[
+  {
+    "schemeCode": "ZUR09",
+    "ourReference": "189611/1622",
+    "clientReference": "Zurkyf",
+    "ClaAccidentDate": "2021-01-05",
+    "ClaAccidentLocation": "",
+    "ClaAccidentCircumstances": "",
+    "ClaPolicyholderFirstName": "B",
+    "ClaPolicyholderLastName": "James",
+    "ClaAddressLine1": "",
+    "ClaAddressLine2": "",
+    "ClaAddressTown": "",
+    "ClaAddressCounty": "",
+    "ClaAddressPostcode": "",
+    "ClaPolicyholderEmail": "",
+    "ClaPolicyholderPhone": "",
+    "ClaOutlayAmount": 9865,
+    "TpdFirstName": "S",
+    "TpdLastName": "Redd",
+    "TpdAddressLine1": "",
+    "TpdAddressLine2": "",
+    "TpdAddressTown": "",
+    "TpdAddressCounty": "",
+    "TpdAddressPostcode": "",
+    "TpdEmail": "",
+    "TpdVehicleVrn": "",
+    "TpdVehicleMake": "",
+    "TpdVehicleModel": "",
+    "TpiReference": "4tytty",
+    "TpiName": "AXA INSURANCE UK PLC",
+    "TpiAddressLine1": "",
+    "TpiAddressLine2": "",
+    "TpiAddressTown": "",
+    "TpiAddressCounty": "",
+    "TpiAddressPostcode": "",
+    "TpiRipe": false,
+    "InsVehicleVrn": "",
+    "InsVehicleMake": "",
+    "InsVehicleModel": "",
+    "DriDriversName": "",
+    "DriAddressLine1": "",
+    "DriAddressLine2": "",
+    "DriAddressTown": "",
+    "DriAddressCounty": "",
+    "DriAddressPostcode": "",
+    "DriDriversEmail": "",
+    "DriDriversPhone": "",
+    "CurrentStatus": "LBA Sent",
+    "dateFull": null,
+    "dateLbaSent": "2021-01-08",
+    "cliSystem": "Ultima",
+    "statusUpdated": "2021-01-08T16:23:25.913Z",
+    "initialHandlerName": "Ola Ajibola",
+    "initialHandlerTel": "0161667553767890",
+    "initialHandlerEmail": "olawunmi263@yahoo.com"
+  }
+]
+
