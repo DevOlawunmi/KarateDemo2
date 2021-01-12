@@ -34,4 +34,6 @@ Feature: Submit LBA
         When method post
         Then status 200
 
+        Scenario: Submit LBA, third party address known
+
 
