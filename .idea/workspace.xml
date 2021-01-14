@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ed1779-4086-4817-87dd-b43389340663" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/LVSubmitFullInstruction.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/ZurichSubmitFullInstruction.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/submitFullInstruction.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/LVSubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/LVSubmitFullInstruction.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Full Instruction, Non fault, private PH and TP">
+  <component name="RunManager" selected="Cucumber java.Scenario: Full Instruction, LV Non-fault, private PH, private TP">
     <configuration name="Scenario: Full Instruction, Dispute, Commercial PH," type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/submitFullInstruction.feature" />
@@ -46,6 +44,44 @@
       <option name="NAME_FILTER" value="^Full Instruction\, Dispute\, Commercial PH\,$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, Dispute\, Commercial PH\,$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, Dispute, Commercial PH," />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Full Instruction, LV Dispute, Dispute, Commercial PH, private TP" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LVSubmitFullInstruction.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="KarateDemo2" />
+      <option name="NAME_FILTER" value="^Full Instruction\, LV Dispute\, Dispute\, Commercial PH\, private TP$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, LV Dispute\, Dispute\, Commercial PH\, private TP$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, LV Dispute, Dispute, Commercial PH, private TP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Full Instruction, LV Non-fault, private PH, private TP" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/LVSubmitFullInstruction.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="KarateDemo2" />
+      <option name="NAME_FILTER" value="^Full Instruction\, LV Non\-fault\, private PH\, private TP$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Full Instruction\, LV Non\-fault\, private PH\, private TP$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Full Instruction, LV Non-fault, private PH, private TP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -75,25 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Get Third Party Insurers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/getTPIs.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="KarateDemo2" />
-      <option name="NAME_FILTER" value="^Get Third Party Insurers$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Get Third Party Insurers$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Get Third Party Insurers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: Submit Full Instruction" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/submitFullInstruction.feature" />
@@ -113,32 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Submit LBA Commercial PH and TP" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/SubmitLBA.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="KarateDemo2" />
-      <option name="NAME_FILTER" value="^Submit LBA Commercial PH and TP$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Submit LBA Commercial PH and TP$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Submit LBA Commercial PH and TP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Full Instruction, LV Non-fault, private PH, private TP" />
+        <item itemvalue="Cucumber java.Scenario: Full Instruction, LV Dispute, Dispute, Commercial PH, private TP" />
         <item itemvalue="Cucumber java.Scenario: Full Instruction, Non fault, private PH and TP" />
         <item itemvalue="Cucumber java.Scenario: Full Instruction, Dispute, Commercial PH," />
         <item itemvalue="Cucumber java.Scenario: Submit Full Instruction" />
-        <item itemvalue="Cucumber java.Scenario: Get Third Party Insurers" />
-        <item itemvalue="Cucumber java.Scenario: Submit LBA Commercial PH and TP" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610522851542</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LV Submit full Instruction feature file added">
+      <created>1610609056822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610609056824</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,41 +206,42 @@
     <MESSAGE value="Address lookup feature added" />
     <MESSAGE value="Submit full instruction feature added" />
     <MESSAGE value="Get third party insurers feature added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get third party insurers feature added" />
+    <MESSAGE value="LV Submit full Instruction feature file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LV Submit full Instruction feature file added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="512" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610522630413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="512" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1610522630413" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1610522851035">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1610609055805">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610522851035" />
-    <state width="1493" height="233" key="GridCell.Tab.0.bottom" timestamp="1610545163791">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610609055805" />
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom" timestamp="1610614506537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610545163791" />
-    <state width="1493" height="233" key="GridCell.Tab.0.center" timestamp="1610545163791">
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610614506537" />
+    <state width="1493" height="233" key="GridCell.Tab.0.center" timestamp="1610614506537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610545163791" />
-    <state width="1493" height="233" key="GridCell.Tab.0.left" timestamp="1610545163791">
+    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610614506537" />
+    <state width="1493" height="233" key="GridCell.Tab.0.left" timestamp="1610614506537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610545163791" />
-    <state width="1493" height="233" key="GridCell.Tab.0.right" timestamp="1610545163791">
+    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610614506537" />
+    <state width="1493" height="233" key="GridCell.Tab.0.right" timestamp="1610614506537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610545163791" />
+    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610614506537" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1610166206628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610166206628" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1610522854165">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1610609065858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610522854165" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610609065858" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1610608773539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
