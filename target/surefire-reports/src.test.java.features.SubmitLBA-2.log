@@ -1,6 +1,6 @@
-12:20:40.376 found scenario at line: 17 - ^Submit LBA Commercial PH$
-12:20:40.522 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-12:20:41.512 request:
+08:25:52.973 found scenario at line: 17 - ^Submit LBA Commercial PH$
+08:25:53.126 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+08:25:54.046 request:
 1 > POST https://hfportaldev.azure-api.net/hf-recoveries-a2a/LBA
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -11,14 +11,13 @@
 1 > ocp-apim-subscription-key: 688e9e8619e04c0a9a9b70f539016756
 {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"COMMPH0RERRET5R","bacs":"ZAC"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"commercial","comfirmOutlayOver10K":false,"accidentDate":"2021-01-05T00:00:00.000Z","policyholderCommercialName":"First Group PLC","outlayAmount":8000,"liabilityDecision":"Dispute","liabilityApportionment":60},"tpDetails":{"thirdPartyPersonalOrCommercial":"personal","title":"Sir","firstName":"Dave ","lastName":"Att'gh"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"Tesco Bank (ITB)","reference":"TRES5","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"MK68OBA","make":"VOLKSWAGEN","model":"T-ROC SEL TDI 4MOTION"}}}
 
-12:20:52.352 response time in milliseconds: 10834.82
-1 < 200
+08:25:58.993 response time in milliseconds: 4943.00
+1 < 400
+1 < Content-Length: 65
 1 < Content-Type: text/plain; charset=utf-8
-1 < Date: Tue, 12 Jan 2021 12:20:52 GMT
+1 < Date: Fri, 15 Jan 2021 08:25:59 GMT
 1 < Request-Context: appId=cid-v1:03027638-4246-4d4a-b086-635c707e08c8
 1 < Set-Cookie: [ARRAffinity=94e0142216647626a5ea3bdd81a6379b16ea9e930134395d43689721dc8bca60;Path=/;HttpOnly;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinity=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;Secure;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinitySameSite=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;SameSite=None;Secure;Domain=hfportal-recoveries.azurewebsites.net]
-1 < Vary: Accept-Encoding
-{
-  "success": "Our Reference: 189611/1659"
-}
+The request could not be processed. The reference already exists.
 
+08:25:58.998 status code was: 400, expected: 200, response time: 4943, url: https://hfportaldev.azure-api.net/hf-recoveries-a2a/LBA, response: The request could not be processed. The reference already exists.

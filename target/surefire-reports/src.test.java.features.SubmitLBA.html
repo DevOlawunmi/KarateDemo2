@@ -168,63 +168,63 @@
 </img><div>
 <div class="scenario">
 <div class="scenario-heading">
-<span class="scenario-keyword">Scenario: [4:36]</span><span class="scenario-name">Submit LBA Commercial PH and TP</span>
+<span class="scenario-keyword">Scenario: [1:6]</span><span class="scenario-name">Submit LBA Personal PH and TP</span>
 </div>
 <div class="step-row">
 <div class="step-cell passed">* url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'</div>
-<div class="time-cell passed">0.002967</div>
+<div class="time-cell passed">0.00298</div>
 </div>
-<div class="preformatted">12:22:25.853 found scenario at line: 36 - ^Submit LBA Commercial PH and TP$
-12:22:25.984 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="preformatted">08:30:43.568 found scenario at line: 6 - ^Submit LBA Personal PH and TP$
+08:30:43.696 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
 <div class="step-row">
 <div class="step-cell passed">Given path '/LBA'</div>
-<div class="time-cell passed">0.002647</div>
+<div class="time-cell passed">0.002781</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And header Content-type = 'application/json'</div>
-<div class="time-cell passed">0.002211</div>
+<div class="time-cell passed">0.002042</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'</div>
-<div class="time-cell passed">0.00201</div>
+<div class="time-cell passed">0.001794</div>
 </div>
 <div class="step-row">
-<div class="step-cell passed">* def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"COMMASGi79o8o","bacs":"ZPC Vlocity"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"commercial","comfirmOutlayOver10K":false,"accidentDate":"2020-12-02T00:00:00.000Z","policyholderCommercialName":"Sainsbury's PLC","outlayAmount":5676,"liabilityDecision":"Non Fault","liabilityApportionment":0},"tpDetails":{"thirdPartyPersonalOrCommercial":"commercial","thirdPartyCommercialName":"Tesco PLC"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"Tesco Bank (ITB)","reference":"89P80","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"VN66PKF","make":"NISSAN","model":"QASHQAI ACENTA DCI"}}}</div>
-<div class="time-cell passed">0.073971</div>
+<div class="step-cell passed">* def payload = {"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"THGGYT5467","bacs":"Zeus"},"claimantAndAccident":{"comfirmOutlayOver10K":false,"accidentDate":"2019-12-22T00:00:00.000Z","policyholderTitle":"Mr","policyholderFirstName":"A","policyholderLastName":"D","outlayAmount":5656,"liabilityDecision":"Non Fault","liabilityApportionment":0},"tpDetails":{"title":"Mr","firstName":"D","lastName":"F"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"AXA INSURANCE UK PLC","reference":"5566","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"VN60PKF","make":"CITROEN","model":"C4 VTR+ E-HDI S-A"}}}</div>
+<div class="time-cell passed">0.062599</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And request payload</div>
-<div class="time-cell passed">0.000034</div>
+<div class="time-cell passed">0.000031</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">When method post</div>
-<div class="time-cell passed">10.348574</div>
+<div class="time-cell passed">2.803699</div>
 </div>
-<div class="preformatted">12:22:26.764 request:
+<div class="preformatted">08:30:44.462 request:
 1 &gt; POST https://hfportaldev.azure-api.net/hf-recoveries-a2a/LBA
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
-1 &gt; Content-Length: 818
+1 &gt; Content-Length: 755
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Host: hfportaldev.azure-api.net
 1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
 1 &gt; ocp-apim-subscription-key: 688e9e8619e04c0a9a9b70f539016756
-{"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"COMMASGi79o8o","bacs":"ZPC Vlocity"},"claimantAndAccident":{"policyholderPersonalOrCommercial":"commercial","comfirmOutlayOver10K":false,"accidentDate":"2020-12-02T00:00:00.000Z","policyholderCommercialName":"Sainsbury's PLC","outlayAmount":5676,"liabilityDecision":"Non Fault","liabilityApportionment":0},"tpDetails":{"thirdPartyPersonalOrCommercial":"commercial","thirdPartyCommercialName":"Tesco PLC"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"Tesco Bank (ITB)","reference":"89P80","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"VN66PKF","make":"NISSAN","model":"QASHQAI ACENTA DCI"}}}
+{"client":{"handlerName":"Ola Ajibola","handlerTel":"0161667553767890","handlerEmail":"olawunmi263@yahoo.com","overrideHandlerDetails":false,"reference":"THGGYT5467","bacs":"Zeus"},"claimantAndAccident":{"comfirmOutlayOver10K":false,"accidentDate":"2019-12-22T00:00:00.000Z","policyholderTitle":"Mr","policyholderFirstName":"A","policyholderLastName":"D","outlayAmount":5656,"liabilityDecision":"Non Fault","liabilityApportionment":0},"tpDetails":{"title":"Mr","firstName":"D","lastName":"F"},"tpVehicleInsured":{"isTPVInsured":true,"isTPDAddress":false},"tpInsurer":{"litAvoid":true,"name":"AXA INSURANCE UK PLC","reference":"5566","ripe":true},"tpDetailsVehicle":{"vehicle":{"matched":true,"vrn":"VN60PKF","make":"CITROEN","model":"C4 VTR+ E-HDI S-A"}}}
 
-12:22:36.419 response time in milliseconds: 9649.83
-1 &lt; 200
+08:30:46.573 response time in milliseconds: 2107.58
+1 &lt; 400
+1 &lt; Content-Length: 25
 1 &lt; Content-Type: text/plain; charset=utf-8
-1 &lt; Date: Tue, 12 Jan 2021 12:22:36 GMT
+1 &lt; Date: Fri, 15 Jan 2021 08:30:46 GMT
 1 &lt; Request-Context: appId=cid-v1:03027638-4246-4d4a-b086-635c707e08c8
 1 &lt; Set-Cookie: [ARRAffinity=94e0142216647626a5ea3bdd81a6379b16ea9e930134395d43689721dc8bca60;Path=/;HttpOnly;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinity=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;Secure;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinitySameSite=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;SameSite=None;Secure;Domain=hfportal-recoveries.azurewebsites.net]
-1 &lt; Vary: Accept-Encoding
-{&#13;
-  "success": "Our Reference: 189611/1661"&#13;
-}</div>
+Request failed validation</div>
 <div class="step-row">
-<div class="step-cell passed">Then status 200</div>
-<div class="time-cell passed">0.000041</div>
+<div class="step-cell failed">Then status 200</div>
+<div class="time-cell failed">0.00084</div>
 </div>
+<div class="preformatted">08:30:46.576 status code was: 400, expected: 200, response time: 2108, url: https://hfportaldev.azure-api.net/hf-recoveries-a2a/LBA, response: Request failed validation
+SubmitLBA.feature:14 - status code was: 400, expected: 200, response time: 2108, url: https://hfportaldev.azure-api.net/hf-recoveries-a2a/LBA, response: Request failed validation</div>
 </div>
 </div>
 </body>

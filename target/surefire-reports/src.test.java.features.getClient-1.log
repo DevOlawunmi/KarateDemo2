@@ -1,6 +1,5 @@
-09:53:50.130 found scenario at line: 6 - ^Get client$
-09:53:50.262 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-09:53:50.977 request:
+11:51:05.154 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:51:05.167 request:
 1 > GET https://hfportaldev.azure-api.net/hf-recoveries-a2a/client
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -9,10 +8,10 @@
 1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
 1 > ocp-apim-subscription-key: 688e9e8619e04c0a9a9b70f539016756
 
-09:53:52.458 response time in milliseconds: 1475.68
+11:51:05.528 response time in milliseconds: 359.32
 1 < 200
 1 < Content-Type: text/plain; charset=utf-8
-1 < Date: Tue, 12 Jan 2021 09:53:51 GMT
+1 < Date: Thu, 14 Jan 2021 11:51:04 GMT
 1 < Request-Context: appId=cid-v1:03027638-4246-4d4a-b086-635c707e08c8
 1 < Set-Cookie: [ARRAffinity=94e0142216647626a5ea3bdd81a6379b16ea9e930134395d43689721dc8bca60;Path=/;HttpOnly;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinity=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;Secure;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinitySameSite=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;SameSite=None;Secure;Domain=hfportal-recoveries.azurewebsites.net]
 1 < Vary: Accept-Encoding
@@ -20,9 +19,16 @@
   "account": "ckdikhagl000001l1goh684ne",
   "name": "Zurich",
   "bacs": "Cogen,Zeus,ZPC Vlocity,ZAC,Genz,IMACS,Fame,CHS,Ultima,ZPC I90",
+  "bacsLabel": "Zurich System",
   "appFeatures": {
     "lba": true,
     "full": true,
+    "convert": true,
+    "chase": true
+  }
+}
+
+  "full": true,
     "convert": true,
     "chase": true
   }

@@ -168,31 +168,30 @@
 </img><div>
 <div class="scenario">
 <div class="scenario-heading">
-<span class="scenario-keyword">Scenario: [1:6]</span><span class="scenario-name">Get client</span>
+<span class="scenario-keyword">Scenario: [1:6]</span><span class="scenario-name">Get client (Zurich)</span>
 </div>
 <div class="step-row">
 <div class="step-cell passed">* url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'</div>
-<div class="time-cell passed">0.003967</div>
+<div class="time-cell passed">0.00045</div>
 </div>
-<div class="preformatted">09:53:50.130 found scenario at line: 6 - ^Get client$
-09:53:50.262 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="preformatted">11:51:05.154 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
 <div class="step-row">
 <div class="step-cell passed">Given path '/client'</div>
-<div class="time-cell passed">0.002384</div>
+<div class="time-cell passed">0.005583</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And header Content-type = 'application/json'</div>
-<div class="time-cell passed">0.00217</div>
+<div class="time-cell passed">0.000361</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'</div>
-<div class="time-cell passed">0.002009</div>
+<div class="time-cell passed">0.000301</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">When method get</div>
-<div class="time-cell passed">2.27285</div>
+<div class="time-cell passed">0.365335</div>
 </div>
-<div class="preformatted">09:53:50.977 request:
+<div class="preformatted">11:51:05.167 request:
 1 &gt; GET https://hfportaldev.azure-api.net/hf-recoveries-a2a/client
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -201,10 +200,10 @@
 1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
 1 &gt; ocp-apim-subscription-key: 688e9e8619e04c0a9a9b70f539016756
 
-09:53:52.458 response time in milliseconds: 1475.68
+11:51:05.528 response time in milliseconds: 359.32
 1 &lt; 200
 1 &lt; Content-Type: text/plain; charset=utf-8
-1 &lt; Date: Tue, 12 Jan 2021 09:53:51 GMT
+1 &lt; Date: Thu, 14 Jan 2021 11:51:04 GMT
 1 &lt; Request-Context: appId=cid-v1:03027638-4246-4d4a-b086-635c707e08c8
 1 &lt; Set-Cookie: [ARRAffinity=94e0142216647626a5ea3bdd81a6379b16ea9e930134395d43689721dc8bca60;Path=/;HttpOnly;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinity=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;Secure;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinitySameSite=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;SameSite=None;Secure;Domain=hfportal-recoveries.azurewebsites.net]
 1 &lt; Vary: Accept-Encoding
@@ -212,6 +211,7 @@
   "account": "ckdikhagl000001l1goh684ne",&#13;
   "name": "Zurich",&#13;
   "bacs": "Cogen,Zeus,ZPC Vlocity,ZAC,Genz,IMACS,Fame,CHS,Ultima,ZPC I90",&#13;
+  "bacsLabel": "Zurich System",&#13;
   "appFeatures": {&#13;
     "lba": true,&#13;
     "full": true,&#13;
@@ -221,7 +221,62 @@
 }</div>
 <div class="step-row">
 <div class="step-cell passed">Then status 200</div>
-<div class="time-cell passed">0.000026</div>
+<div class="time-cell passed">0.00003</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading">
+<span class="scenario-keyword">Scenario: [2:13]</span><span class="scenario-name">Get client (LV)</span>
+</div>
+<div class="step-row">
+<div class="step-cell passed">* url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'</div>
+<div class="time-cell passed">0.00067</div>
+</div>
+<div class="preformatted">11:51:05.554 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-cell passed">Given path '/client'</div>
+<div class="time-cell passed">0.000451</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">And header Content-type = 'application/json'</div>
+<div class="time-cell passed">0.000365</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">And header ocp-apim-subscription-key = '79f632d66ad44b45951e2597c855f490'</div>
+<div class="time-cell passed">0.006126</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">When method get</div>
+<div class="time-cell passed">0.801728</div>
+</div>
+<div class="preformatted">11:51:05.566 request:
+1 &gt; GET https://hfportaldev.azure-api.net/hf-recoveries-a2a/client
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-type: application/json
+1 &gt; Host: hfportaldev.azure-api.net
+1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
+1 &gt; ocp-apim-subscription-key: 79f632d66ad44b45951e2597c855f490
+
+11:51:06.365 response time in milliseconds: 796.33
+1 &lt; 200
+1 &lt; Content-Type: text/plain; charset=utf-8
+1 &lt; Date: Thu, 14 Jan 2021 11:51:05 GMT
+1 &lt; Request-Context: appId=cid-v1:03027638-4246-4d4a-b086-635c707e08c8
+1 &lt; Set-Cookie: [ARRAffinity=94e0142216647626a5ea3bdd81a6379b16ea9e930134395d43689721dc8bca60;Path=/;HttpOnly;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinity=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;Secure;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinitySameSite=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;SameSite=None;Secure;Domain=hfportal-recoveries.azurewebsites.net]
+1 &lt; Vary: Accept-Encoding
+{&#13;
+  "account": "ckgg9lhph000001jxgnw2hhrb",&#13;
+  "name": "LV",&#13;
+  "bacs": "LV Non-Fault,LV Dispute",&#13;
+  "bacsLabel": "Instructing Department",&#13;
+  "appFeatures": {&#13;
+    "full": true&#13;
+  }&#13;
+}</div>
+<div class="step-row">
+<div class="step-cell passed">Then status 200</div>
+<div class="time-cell passed">0.000037</div>
 </div>
 </div>
 </div>
