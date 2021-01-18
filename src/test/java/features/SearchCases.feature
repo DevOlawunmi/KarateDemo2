@@ -21,7 +21,7 @@ Feature: Search cases
     When method Get
     Then status 200
 
-  Scenario: Search for a specific case using your reference
+  Scenario: Search for a specific case using client reference
     Given path '/searchCases'
     And header Content-type = 'application/json'
     And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'
