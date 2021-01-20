@@ -172,114 +172,58 @@
 </div>
 <div class="step-row">
 <div class="step-cell passed">* url 'https://hfportaldev.azure-api.net/hf-recoveries-a2a'</div>
-<div class="time-cell passed">0.000211</div>
+<div class="time-cell passed">0.002202</div>
 </div>
-<div class="preformatted">11:51:03.341 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="preformatted">03:38:31.533 found scenario at line: 7 - ^Send LBA chaser$
+03:38:31.618 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
 <div class="step-row">
-<div class="step-cell passed">Given path '/searchCases'</div>
-<div class="time-cell passed">0.003264</div>
+<div class="step-cell passed">Given path '/chase'</div>
+<div class="time-cell passed">0.00223</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And header Content-type = 'application/json'</div>
-<div class="time-cell passed">0.000131</div>
+<div class="time-cell passed">0.001661</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And header ocp-apim-subscription-key = '688e9e8619e04c0a9a9b70f539016756'</div>
-<div class="time-cell passed">0.000097</div>
+<div class="time-cell passed">0.00147</div>
 </div>
 <div class="step-row">
-<div class="step-cell passed">And param ourReference = '189611/1622'</div>
-<div class="time-cell passed">0.001863</div>
+<div class="step-cell passed">* def payload = {"ourReference":"189611/1637"}</div>
+<div class="time-cell passed">0.058923</div>
 </div>
 <div class="step-row">
-<div class="step-cell passed">When method Get</div>
-<div class="time-cell passed">1.470978</div>
+<div class="step-cell passed">And request payload</div>
+<div class="time-cell passed">0.000034</div>
 </div>
-<div class="preformatted">11:51:03.349 request:
-1 &gt; GET https://hfportaldev.azure-api.net/hf-recoveries-a2a/searchCases?ourReference=189611%2F1622
+<div class="step-row">
+<div class="step-cell passed">When method post</div>
+<div class="time-cell passed">2.030553</div>
+</div>
+<div class="preformatted">03:38:32.224 request:
+1 &gt; POST https://hfportaldev.azure-api.net/hf-recoveries-a2a/chase
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
-1 &gt; Content-type: application/json
+1 &gt; Content-Length: 30
+1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Host: hfportaldev.azure-api.net
 1 &gt; User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_241)
 1 &gt; ocp-apim-subscription-key: 688e9e8619e04c0a9a9b70f539016756
+{"ourReference":"189611/1637"}
 
-11:51:04.817 response time in milliseconds: 1466.81
+03:38:33.717 response time in milliseconds: 1488.58
 1 &lt; 200
 1 &lt; Content-Type: text/plain; charset=utf-8
-1 &lt; Date: Thu, 14 Jan 2021 11:51:04 GMT
+1 &lt; Date: Wed, 20 Jan 2021 03:38:32 GMT
 1 &lt; Request-Context: appId=cid-v1:03027638-4246-4d4a-b086-635c707e08c8
 1 &lt; Set-Cookie: [ARRAffinity=94e0142216647626a5ea3bdd81a6379b16ea9e930134395d43689721dc8bca60;Path=/;HttpOnly;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinity=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;Secure;Domain=hfportal-recoveries.azurewebsites.net, ARRAffinitySameSite=0a8f815a489a99d178dc5d62558befa649e513aa97181ee3ad304f0f4f2953f6;Path=/;HttpOnly;SameSite=None;Secure;Domain=hfportal-recoveries.azurewebsites.net]
 1 &lt; Vary: Accept-Encoding
-[&#13;
-  {&#13;
-    "schemeCode": "ZUR09",&#13;
-    "ourReference": "189611/1622",&#13;
-    "clientReference": "Zurkyf",&#13;
-    "ClaAccidentDate": "2021-01-05",&#13;
-    "ClaAccidentLocation": "",&#13;
-    "ClaAccidentCircumstances": "",&#13;
-    "ClaPolicyholderTitle": "Mr",&#13;
-    "ClaPolicyholderFirstName": "B",&#13;
-    "ClaPolicyholderLastName": "James",&#13;
-    "ClaLiabilityDecision": null,&#13;
-    "ClaLiabilityApportionment": null,&#13;
-    "ClaPolicyholderCommercialName": "B James",&#13;
-    "ClaPolicyholderPersonalOrCommercial": "&lt;Select&gt;",&#13;
-    "ClaAddressLine1": "",&#13;
-    "ClaAddressLine2": "",&#13;
-    "ClaAddressTown": "",&#13;
-    "ClaAddressCounty": "",&#13;
-    "ClaAddressPostcode": "",&#13;
-    "ClaPolicyholderEmail": "",&#13;
-    "ClaPolicyholderPhone": "",&#13;
-    "ClaOutlayAmount": 9865,&#13;
-    "TpdPersonalOrCommercial": "&lt;Select&gt;",&#13;
-    "TpdCommercialName": "S Redd",&#13;
-    "TpdFirstTitle": "Ms",&#13;
-    "TpdFirstName": "S",&#13;
-    "TpdLastName": "Redd",&#13;
-    "TpdAddressLine1": "",&#13;
-    "TpdAddressLine2": "",&#13;
-    "TpdAddressTown": "",&#13;
-    "TpdAddressCounty": "",&#13;
-    "TpdAddressPostcode": "",&#13;
-    "TpdEmail": "",&#13;
-    "TpdVehicleVrn": "",&#13;
-    "TpdVehicleMake": "",&#13;
-    "TpdVehicleModel": "",&#13;
-    "TpiReference": "4tytty",&#13;
-    "TpiName": "AXA INSURANCE UK PLC",&#13;
-    "TpiAddressLine1": "",&#13;
-    "TpiAddressLine2": "",&#13;
-    "TpiAddressTown": "",&#13;
-    "TpiAddressCounty": "",&#13;
-    "TpiAddressPostcode": "",&#13;
-    "TpiRipe": false,&#13;
-    "InsVehicleVrn": "",&#13;
-    "InsVehicleMake": "",&#13;
-    "InsVehicleModel": "",&#13;
-    "DriDriversName": "",&#13;
-    "DriAddressLine1": "",&#13;
-    "DriAddressLine2": "",&#13;
-    "DriAddressTown": "",&#13;
-    "DriAddressCounty": "",&#13;
-    "DriAddressPostcode": "",&#13;
-    "DriDriversEmail": "",&#13;
-    "DriDriversPhone": "",&#13;
-    "CurrentStatus": "LBA Sent",&#13;
-    "dateFull": null,&#13;
-    "dateLbaSent": "2021-01-08",&#13;
-    "cliSystem": "Ultima",&#13;
-    "statusUpdated": "2021-01-08T16:23:25.913Z",&#13;
-    "initialHandlerName": "Ola Ajibola",&#13;
-    "initialHandlerTel": "0161667553767890",&#13;
-    "initialHandlerEmail": "olawunmi263@yahoo.com"&#13;
-  }&#13;
-]</div>
+{&#13;
+  "success": "The request to send a chaser has been processed"&#13;
+}</div>
 <div class="step-row">
 <div class="step-cell passed">Then status 200</div>
-<div class="time-cell passed">0.000021</div>
+<div class="time-cell passed">0.000013</div>
 </div>
 </div>
 </div>
